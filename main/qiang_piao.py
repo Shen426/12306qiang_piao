@@ -6,17 +6,7 @@ from playwright.sync_api import sync_playwright, Page, BrowserContext, TimeoutEr
 # ==============================================================================
 # 模块一：全局数据配置结构 (Data Configuration Model)
 # ==============================================================================
-TICKET_AUTOMATION_CONFIG: Dict = {
-    "travel_date": "2026-05-01",  # 严格遵守格式的乘车日期配置
-    "departure_station": "南京",  # 始发站标准中文字符串
-    "departure_code": "NJH",  # 始发站电报码
-    "arrival_station": "北京",  # 终到站标准中文字符串
-    "arrival_code": "BJP",  # 终到站电报码
-    "target_trains": ["G123", "G456", "G789"],  # 按意向优先级排列的车次
-    "passengers": ["随忆"],  # 你的真实姓名
-    "seat_preference": "二等座",  # 可选座位等级
-    "base_poll_interval": 2.5  # 轮询基础休眠间隔（秒）- 平衡速度与风控
-}
+from config import TICKET_AUTOMATION_CONFIG
 
 
 class TrainTicketAutomator:
