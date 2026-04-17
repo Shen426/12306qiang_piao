@@ -42,7 +42,7 @@ playwright install chromium
    - `travel_date`: 乘车日期 (格式如 `"2026-05-01"`)
    - `departure_station` / `departure_code`: 出发站及电报码 (如 `"南京"` 和 `"NJH"`)
    - `arrival_station` / `arrival_code`: 到达站及电报码 (如 `"北京"` 和 `"BJP"`)
-   - `target_trains`: 期望抢购的车次列表，按意向优先级排序 (如 `["G1252", "G634", "G1970"]`)
+   - `target_trains`: 期望抢购的车次列表，按意向优先级排序 (如 `["G123", "G456", "G789"]`)
    - `passengers`: 你的真实姓名列表 (须与 12306 账号内绑定的姓名完全一致)
 
 2. **启动抢票：**
