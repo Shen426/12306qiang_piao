@@ -41,7 +41,7 @@ playwright install chromium
    打开代码中的 `TICKET_AUTOMATION_CONFIG` 字典（或 `config.py`），填入你真实的抢票信息：
    - `travel_date`: 乘车日期 (格式如 `"2026-05-01"`)
    - `departure_station` / `departure_code`: 出发站及电报码 (如 `"南京"` 和 `"NJH"`)
-   - `arrival_station` / `arrival_code`: 到达站及电报码 (如 `"徐州"` 和 `"XCH"`)
+   - `arrival_station` / `arrival_code`: 到达站及电报码 (如 `"北京"` 和 `"BJP"`)
    - `target_trains`: 期望抢购的车次列表，按意向优先级排序 (如 `["G1252", "G634", "G1970"]`)
    - `passengers`: 你的真实姓名列表 (须与 12306 账号内绑定的姓名完全一致)
 
